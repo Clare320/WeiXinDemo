@@ -11,6 +11,7 @@
 		BCCB8D362638561D00C13DBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB8D352638561D00C13DBA /* ContentView.swift */; };
 		BCCB8D382638561F00C13DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB8D372638561F00C13DBA /* Assets.xcassets */; };
 		BCCB8D3B2638561F00C13DBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB8D3A2638561F00C13DBA /* Preview Assets.xcassets */; };
+		BCCB8D4526385C1A00C13DBA /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB8D4426385C1A00C13DBA /* TabBarItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BCCB8D372638561F00C13DBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCCB8D3A2638561F00C13DBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCCB8D3C2638561F00C13DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCB8D4426385C1A00C13DBA /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		BCCB8D322638561D00C13DBA /* WeiXinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCCB8D4326385BFC00C13DBA /* TabBar */,
 				BCCB8D332638561D00C13DBA /* WeiXinDemoApp.swift */,
 				BCCB8D352638561D00C13DBA /* ContentView.swift */,
 				BCCB8D372638561F00C13DBA /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				BCCB8D3A2638561F00C13DBA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCCB8D4326385BFC00C13DBA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB8D4426385C1A00C13DBA /* TabBarItem.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCCB8D4526385C1A00C13DBA /* TabBarItem.swift in Sources */,
 				BCCB8D362638561D00C13DBA /* ContentView.swift in Sources */,
 				BCCB8D342638561D00C13DBA /* WeiXinDemoApp.swift in Sources */,
 			);
