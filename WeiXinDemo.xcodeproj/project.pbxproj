@@ -12,6 +12,11 @@
 		BCCB8D382638561F00C13DBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB8D372638561F00C13DBA /* Assets.xcassets */; };
 		BCCB8D3B2638561F00C13DBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCB8D3A2638561F00C13DBA /* Preview Assets.xcassets */; };
 		BCCB8D4526385C1A00C13DBA /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB8D4426385C1A00C13DBA /* TabBarItem.swift */; };
+		BCF5C7E6263902CF00E24177 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5C7E5263902CF00E24177 /* MineView.swift */; };
+		BCF5C7E92639068D00E24177 /* MineUserHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5C7E82639068C00E24177 /* MineUserHeader.swift */; };
+		BCF5C7EB26390D9B00E24177 /* MineSectionFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5C7EA26390D9B00E24177 /* MineSectionFooter.swift */; };
+		BCF5C7EE2639386E00E24177 /* MineListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5C7ED2639386E00E24177 /* MineListCell.swift */; };
+		BCF5C7F0263952D700E24177 /* MineSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5C7EF263952D700E24177 /* MineSectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		BCCB8D3A2638561F00C13DBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCCB8D3C2638561F00C13DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCCB8D4426385C1A00C13DBA /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		BCF5C7E5263902CF00E24177 /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
+		BCF5C7E82639068C00E24177 /* MineUserHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineUserHeader.swift; sourceTree = "<group>"; };
+		BCF5C7EA26390D9B00E24177 /* MineSectionFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSectionFooter.swift; sourceTree = "<group>"; };
+		BCF5C7ED2639386E00E24177 /* MineListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineListCell.swift; sourceTree = "<group>"; };
+		BCF5C7EF263952D700E24177 /* MineSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineSectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 		BCCB8D322638561D00C13DBA /* WeiXinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCF5C7F126395A2F00E24177 /* AddressBook */,
+				BCF5C7E4263902AD00E24177 /* Mine */,
 				BCCB8D4326385BFC00C13DBA /* TabBar */,
 				BCCB8D332638561D00C13DBA /* WeiXinDemoApp.swift */,
 				BCCB8D352638561D00C13DBA /* ContentView.swift */,
@@ -78,6 +90,41 @@
 				BCCB8D4426385C1A00C13DBA /* TabBarItem.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BCF5C7E4263902AD00E24177 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5C7EC263935EA00E24177 /* Models */,
+				BCF5C7E72639067500E24177 /* Views */,
+				BCF5C7E5263902CF00E24177 /* MineView.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BCF5C7E72639067500E24177 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5C7E82639068C00E24177 /* MineUserHeader.swift */,
+				BCF5C7EA26390D9B00E24177 /* MineSectionFooter.swift */,
+				BCF5C7ED2639386E00E24177 /* MineListCell.swift */,
+				BCF5C7EF263952D700E24177 /* MineSectionHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCF5C7EC263935EA00E24177 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCF5C7F126395A2F00E24177 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddressBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCCB8D4526385C1A00C13DBA /* TabBarItem.swift in Sources */,
+				BCF5C7F0263952D700E24177 /* MineSectionHeader.swift in Sources */,
+				BCF5C7EE2639386E00E24177 /* MineListCell.swift in Sources */,
+				BCF5C7EB26390D9B00E24177 /* MineSectionFooter.swift in Sources */,
+				BCF5C7E6263902CF00E24177 /* MineView.swift in Sources */,
 				BCCB8D362638561D00C13DBA /* ContentView.swift in Sources */,
+				BCF5C7E92639068D00E24177 /* MineUserHeader.swift in Sources */,
 				BCCB8D342638561D00C13DBA /* WeiXinDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

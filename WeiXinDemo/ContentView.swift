@@ -39,7 +39,7 @@ struct ContentView: View {
                     selectedIndex = 3
                 }
             }.tag(3)
-            Text("我").tabItem {
+            MineView().tabItem {
                 TabBarItem(
                     iconName: "person",
                     title: "我",
